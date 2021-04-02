@@ -1,0 +1,28 @@
+.imgJava
+{
+    background-image: url('../img/java.png');
+    height: 200px;
+}
+
+.imgMicrosoft
+{
+    background-image: url('../img/Microsoft.png');
+    height: 200px;
+}
+
+#DivEsquerda
+{
+    width: 50%;
+    float: left;
+}
+
+#DivDireita
+{
+    width: 50%;
+    float: right;
+}
+
+.Container
+{
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+*
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+th
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+table
+{
+    border: 2px solid black;
+}
+
+td
+{
+    border: 3px solid black;
+}
+
+.Linha2
+{
+    background-color: greenyellow;
+}
+
+#Linha3
+{
+    background-color: red;
+}
+
+#DivEsquerda
+{
+    width: 35%;
+    float: left;
+}
+
+#DivDireita
+{
+    width: 40%;
+    float: left;
+}
+
+.Container
+{
+    width: 100%;
+}

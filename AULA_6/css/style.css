@@ -1,0 +1,58 @@
+*
+{
+    margin: 5px;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#ParagrafoFooter
+{
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.Fundo:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+#Mensagem
+{
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+#Formulario
+{
+    font-size: 20px;
+    color: darkblue;
+    text-align: right;
+    text-shadow: 10px 10px 10px blue;
+    padding: 30px;
+    background-color: rgba(20, 200, 100, 0.5);
+}
+
+#LinkGoogle
+{
+    margin-top: 20px;
+    float: right;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#LinkGoogle:hover
+{
+    background-color: gray;
+    color: white;
+}

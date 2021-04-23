@@ -1,0 +1,13 @@
+.Imagem1
+{
+    background-image: url('Img1.png');
+    background-repeat: no-repeat, repeat;
+    height: 200px;
+}
+
+#Imagem2
+{
+    background-image: url('Img2.jpg');
+    background-repeat: no-repeat, repeat;
+    height: 250px;
+}

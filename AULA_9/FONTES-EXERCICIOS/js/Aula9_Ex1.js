@@ -17,5 +17,4 @@ while(cont<=100)
     cont++;
 }
 
-console.log("TOTAL PAR....: " +par);
-console.log("TOTAL IMPAR..: " + impar);
+alert("TOTAL PAR....: " + par + "\n TOTAL IMPAR..: " + impar);

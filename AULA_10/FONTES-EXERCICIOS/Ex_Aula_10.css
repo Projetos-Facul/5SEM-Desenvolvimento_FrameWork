@@ -1,0 +1,48 @@
+*
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+h1
+{
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.Subtitulo, .Itens
+{
+    background-color: darkgray;
+    font-size: 15px;
+}
+
+.Subtitulo, table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+table
+{
+    width: 1025px;
+    font-weight: bold;
+}
+
+#Secos
+{
+    border: 3px solid black;
+}
+
+#Molhados
+{
+    border: 3px solid blue;
+}
+
+#Frageis
+{
+    border: 3px solid red;
+}

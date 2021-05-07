@@ -3,11 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Ex Aula 10 - SuperMercado</title>
-    <script language="javascript" src="js/Ex_Aula_10.js"></script>
+    <script language="javascript" src="Ex_Aula_10.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ex_Aula_10.css">
 </head>
 <body>
-    <h1 id="MeuTexto"> Meu ID </h1>
-    <button onclick="MudarFormatacao(1)">FORM 1</button>
-    <button onclick="MudarFormatacao(2)">FORM 2</button>
+    <h1> Supermercado Central </h1>
+    <br>
+    <p class="Subtitulo">Para um planeta melhor, informe a quantidade de itens comprados e a quantidade a ser dividida por sacola plastica.</p>
+    <table>
+        <tr>
+            <td id="Secos" class="Itens">
+                <p>
+                    Informe a quantidade de itens secos a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdSeco1" id="txtQtdSeco1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens secos a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdSeco2" id="txtQtdSeco2" placeholder="Quantidade de itens Secos">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td id="Molhados" class="Itens">
+                <p>
+                    Informe a quantidade de itens molhados a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdMolhado1" id="txtQtdMolhado1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens molhados a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdMolhado2" id="txtQtdMolhado2" placeholder="Quantidade de itens Molhados">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td id="Frageis" class="Itens">
+                <p>
+                    Informe a quantidade de itens frageis a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdFragil1" id="txtQtdFragil1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens frageis a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdFragil2" id="txtQtdFragil2" placeholder="Quantidade de itens frageis">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="Calcular()">CALCULAR</button>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 09 - Eventos com JS</title>
+    <script language="javascript" src="js/Eventos.js"></script>
+</head>
+<body>
+    <button onclick="CliquedoBotao1()">Botão 1</button>
+    <button onclick="CliquedoBotao2('OnClick')">Botão 2</button>
+    <button onmouseover="CliquedoBotao2('OnMouseOver')">Botão 3</button>
+    <button onmousedown="CliquedoBotao2('OnMouseDown')">Botão 4</button>
+    <button onmouseleave="CliquedoBotao2('OnMouseLeave')">Botão 5</button>
+    <button onmouseenter="CliquedoBotao2('OnMouseEnter')">Botão 6</button>
+
+    <br><br><br>
+    <footer>
+        <input type="text" name="Valor1" id="txtValor1" placeholder="Informe o 1º Valor">
+        <input type="text" name="Valor2" id="txtValor2" placeholder="Informe o 2º Valor">
+        <input type="submit" value="Soma" onclick="Soma()">
+        <input type="submit" value="Subtração" onclick="Subtracao()">
+        <input type="submit" value="Multiplicação" onclick="Multiplicacao()">
+        <input type="submit" value="Divisão" onclick="Divisao()">
+    </footer>
+</body>
+</html>

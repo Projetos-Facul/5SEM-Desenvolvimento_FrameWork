@@ -9,6 +9,5 @@ ArrayNome.sort();
 
 for(i=0; i<4; i++)
 {
-    console.log((i+1) + "º Nome: " + ArrayNome[i]);
     alert((i+1) + "º Nome: " + ArrayNome[i]);
 }

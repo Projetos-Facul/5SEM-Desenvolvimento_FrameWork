@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 11 - SuperMercado</title>
+</head>
+<body>
+    <h1 id="Titulo"> Supermercado Central </h1>
+    <br>
+    <p class="Subtitulo">Para um planeta melhor, informe a quantidade de itens comprados e a quantidade a ser dividida por sacola plastica.</p>
+    <table>
+        <tr>
+            <td id="Secos" class="Itens">
+                <p>
+                    Informe a quantidade de itens secos a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdSeco1" id="txtQtdSeco1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens secos a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdSeco2" id="txtQtdSeco2" placeholder="Quantidade de itens Secos">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td id="Molhados" class="Itens">
+                <p>
+                    Informe a quantidade de itens molhados a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdMolhado1" id="txtQtdMolhado1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens molhados a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdMolhado2" id="txtQtdMolhado2" placeholder="Quantidade de itens Molhados">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td id="Frageis" class="Itens">
+                <p>
+                    Informe a quantidade de itens frageis a serem colocados nas sacolas:
+                    <input type="text" name="txtQtdFragil1" id="txtQtdFragil1">
+                    Maximize o numero de itens por sacola.
+                </p>
+                <p>
+                    Informe a quantidade de itens frageis a serem divididos nas sacolas: 
+                    <input type="text" name="txtQtdFragil2" id="txtQtdFragil2" placeholder="Quantidade de itens frageis">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="Calcular()">CALCULAR</button>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/SuperMercado.js"></script>
+        <link rel="stylesheet" href="css/SuperMercado.css">
+    </footer>
+</body>
+</html>

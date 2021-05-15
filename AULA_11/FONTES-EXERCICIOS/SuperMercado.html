@@ -9,16 +9,19 @@
     <br>
     <p class="Subtitulo">Para um planeta melhor, informe a quantidade de itens comprados e a quantidade a ser dividida por sacola plastica.</p>
     <table>
+        <form id="Geral">
         <tr>
             <td id="Secos" class="Itens">
                 <p>
                     Informe a quantidade de itens secos a serem colocados nas sacolas:
                     <input type="text" name="txtQtdSeco1" id="txtQtdSeco1">
+                    <span id="txtQtdSeco1Mensagem"></span>
                     Maximize o numero de itens por sacola.
                 </p>
                 <p>
                     Informe a quantidade de itens secos a serem divididos nas sacolas: 
                     <input type="text" name="txtQtdSeco2" id="txtQtdSeco2" placeholder="Quantidade de itens Secos">
+                    <span id="txtQtdSeco2Mensagem"></span>
                 </p>
             </td>
         </tr>
@@ -27,11 +30,13 @@
                 <p>
                     Informe a quantidade de itens molhados a serem colocados nas sacolas:
                     <input type="text" name="txtQtdMolhado1" id="txtQtdMolhado1">
+                    <span id="txtQtdMolhado1Mensagem"></span>
                     Maximize o numero de itens por sacola.
                 </p>
                 <p>
                     Informe a quantidade de itens molhados a serem divididos nas sacolas: 
                     <input type="text" name="txtQtdMolhado2" id="txtQtdMolhado2" placeholder="Quantidade de itens Molhados">
+                    <span id="txtQtdMolhado2Mensagem"></span>
                 </p>
             </td>
         </tr>
@@ -40,14 +45,17 @@
                 <p>
                     Informe a quantidade de itens frageis a serem colocados nas sacolas:
                     <input type="text" name="txtQtdFragil1" id="txtQtdFragil1">
+                    <span id="txtQtdFragil1Mensagem"></span>
                     Maximize o numero de itens por sacola.
                 </p>
                 <p>
                     Informe a quantidade de itens frageis a serem divididos nas sacolas: 
                     <input type="text" name="txtQtdFragil2" id="txtQtdFragil2" placeholder="Quantidade de itens frageis">
+                    <span id="txtQtdFragil2Mensagem"></span>
                 </p>
             </td>
         </tr>
+    </form>
         <tr>
             <td>
                 <button id="btnCalc">CALCULAR</button>

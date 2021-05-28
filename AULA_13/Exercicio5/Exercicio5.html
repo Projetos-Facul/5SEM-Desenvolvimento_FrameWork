@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercicio 5</title>
+    <link rel="stylesheet" type="text/css" href="Exercicio5.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./Exercicio5.js"></script>
+</head>
+<body>
+    <div>
+        <h1 id="Titulo">Grade horária da turma 5/6 CCO Noturno</h1>
+        <table>
+            <tr>
+                <th>Horário</th>
+                <th class="Materia" id="IA">Segunda-feira</th>
+                <th class="Materia" id="Matematica">Terça-feira</th>
+                <th class="Materia" id="Estrutura_de_Dados">Quarta-feira</th>
+                <th class="Materia" id="Framework_2">Quinta-feira</th>
+                <th class="Materia" id="Empreendedorismo">Sexta-feira</th>
+            </tr>
+            <tr>
+                <td id="Horario">19:10 - 20:00</td>
+                <td>IA</td>
+                <td>Matematica</td>
+                <td>Estrutura de Dados</td>
+                <td>Framework 2</td>
+                <td>Empreendedorismo</td>
+            </tr>
+            <tr>
+                <td id="Horario">20:00 - 20:50</td>
+                <td>IA</td>
+                <td>Matematica</td>
+                <td>Estrutura de Dados</td>
+                <td>Framework 2</td>
+                <td>Empreendedorismo</td>
+            </tr>
+            <tr>
+                <td id="Horario">20:50 - 21:00</td>
+                <td>Intervalo</td>
+                <td>Intervalo</td>
+                <td>Intervalo</td>
+                <td>Intervalo</td>
+                <td>Intervalo</td>
+            </tr>
+            <tr>
+                <td id="Horario">21:00 - 21:50</td>
+                <td>IA</td>
+                <td>Matematica</td>
+                <td>Estrutura de Dados</td>
+                <td>Framework 2</td>
+                <td>Empreendedorismo</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <label>Informe a disciplina a ser localizada:</label>
+    <br>
+    <input type="text" id="txtDisc">
+    <button id="btnLocalizar">Localizar</button>
+    <form>
+        <h2>Salas de Aula</h2>
+        <dl>
+            <dt class="Materia" id="IA2">Segunda-feira</dt>
+                <dd id="numero">Sala 352</dd>
+                <dd>3º andar próximo ao laboratório de fisica</dd>
+            <dt class="Materia" id="Matematica2">Terça-feira</dt>
+                <dd id="numero">Sala 52</dd>
+                <dd>Andar térreo próximo a sala dos professores.</dd>
+            <dt class="Materia" id="Estrutura_de_Dados2">Quarta-feira</dt>
+                <dd id="numero">Sala 352</dd>
+                <dd>3º andar próximo ao laboratório de fisica</dd>
+            <dt class="Materia" id="Framework_22">Quinta-feira</dt>
+                <dd id="numero">Laboratório 19</dd>
+                <dd>2º andar na area dos laboratórios de TI.</dd>
+            <dt class="Materia" id="Empreendedorismo2">Sexta-feira</dt>
+                <dd id="numero">Sala 252</dd>
+                <dd>2º andar próximo ao laboratório de quimica.</dd>
+        </dl>
+    </form>
+</body>
+</html>
